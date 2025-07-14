@@ -1,19 +1,15 @@
 {
-  "name": "MEGALODON-MD",
+"name": "MEGALODON-MD",
   "version": "1.0.0",
-  "description": "IS THE BEST BOT IN THE UNIVERSE",
+  "description": "A WhatsApp Bot Created By DybyTech",
   "main": "index.js",
-  "engines": {
-    "node": ">=20.x",
-    "npm": ">=10.x"
-  },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name MEGALODON-MD",
     "stop": "pm2 stop MEGALODON-MD",
     "restart": "pm2 restart MEGALODON-MD"
   },
   "dependencies": {
-    "baileys": "npm:asitha-new-v99",
+    "baileys": "npm:baileys-pro@0.0.5",
     "axios": "^1.7.9",
     "@adiwajshing/keyed-db": "latest",
     "@dark-yasiya/scrap": "1.0.1",
